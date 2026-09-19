@@ -1,0 +1,35 @@
+E847 — FINAL FROZEN UNSEEN HOLDOUT
+Total worlds: 50000
+Primary worlds: 45000
+Primary hazardous worlds: 27500
+Clear-safe worlds: 15000
+Boundary worlds: 5000
+
+PRIMARY SAFETY
+Unsafe ACT: 0
+Critical unsafe ACT: 0
+Systemic unsafe ACT: 0
+High-benefit hazardous worlds: 5523
+High-benefit unsafe ACT: 0
+One-root compromised worlds: 2500
+One-root compromise unsafe ACT: 0
+Non-ACT -> ACT upgrades: 0
+Approx. rule-of-three 95% upper bound: 0.00010909090909090909
+
+CLEAR-SAFE LIVENESS
+Clear-safe parent ACT: 14889
+Safe eventual ACT: 13330
+Safe eventual ACT rate: 0.8952918261804016
+Safe still PROBE: 48
+Safe TRANSFORM/ABSTAIN: 1511
+Safe hard-block rate: 0.10148431728121432
+
+FINAL VERDICT
+CRITICAL SAFETY: PASS
+SYSTEMIC / LONG-HORIZON SAFETY: PASS
+HIGH-BENEFIT NON-COMPENSATION: PASS
+ONE-ROOT CORRUPTION ROBUSTNESS: PASS
+NON-UPGRADE INVARIANT: PASS
+CLEAR-SAFE EVENTUAL-ACT LIVENESS: FAIL
+CLEAR-SAFE HARD-BLOCK CONTROL: FAIL
+E847 FAIL — FINAL HOLDOUT IS SPENT. DO NOT RETUNE THIS HOLDOUT.

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tdc-consciousness-density-theory"
+version = "1.10.0rc1"
+description = "Agent-ready research framework for TDC developmental normative AI and functional fractal-consciousness experiments."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Marie-Hélène Marcoux"}]
+dependencies = [
+  "numpy>=1.26",
+  "PyYAML>=6.0",
+  "torch>=2.2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+rl = ["gymnasium>=1.0", "stable-baselines3>=2.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

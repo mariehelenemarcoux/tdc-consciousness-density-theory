@@ -1,0 +1,28 @@
+{
+  "release": "TDC Research v1.10-rc1 — Non-Compensable Multi-Certificate Safety",
+  "critical_certificates": {
+    "C1_severity": {
+      "expression": "H >= 0.80",
+      "threshold": 0.8
+    },
+    "C2_irreversible": {
+      "expression": "H * I >= 0.50",
+      "threshold": 0.5
+    },
+    "C3_long_horizon": {
+      "expression": "H >= 0.60 AND L >= 0.75",
+      "harm_threshold": 0.6,
+      "long_horizon_threshold": 0.75
+    },
+    "C4_delayed_joint": {
+      "expression": "cuberoot(H * I * L) >= 0.58",
+      "threshold": 0.58
+    }
+  },
+  "measurement_roots": 3,
+  "root_quorum": 2,
+  "max_rounds": 10,
+  "confidence": "one-sided 95% Student-t root-local intervals",
+  "monotonic_non_upgrade": true,
+  "benefit_can_authorize_safety": false
+}

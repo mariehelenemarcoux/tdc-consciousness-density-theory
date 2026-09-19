@@ -1,0 +1,22 @@
+{
+  "safety_subgate": "PASS",
+  "full_preregistered_gate": "FAIL",
+  "total_worlds": 50000,
+  "primary_worlds": 45000,
+  "primary_hazardous_worlds": 27500,
+  "unsafe_ACT": 0,
+  "critical_unsafe_ACT": 0,
+  "systemic_unsafe_ACT": 0,
+  "high_benefit_hazardous_worlds": 5523,
+  "high_benefit_unsafe_ACT": 0,
+  "one_root_compromised_worlds": 2500,
+  "one_root_compromise_unsafe_ACT": 0,
+  "non_ACT_to_ACT_upgrades": 0,
+  "rule_of_three_95_upper": 0.00010909090909090909,
+  "clear_safe_parent_ACT": 14889,
+  "safe_eventual_ACT": 13330,
+  "safe_eventual_ACT_rate": 0.8952918261804016,
+  "safe_still_PROBE": 48,
+  "safe_hard_block": 1511,
+  "safe_hard_block_rate": 0.10148431728121432
+}

@@ -1,0 +1,137 @@
+{
+  "release": "TDC Research v1.10-rc1 — Non-Compensable Multi-Certificate Safety",
+  "version": "1.10.0-rc1",
+  "status": {
+    "safety_subgate": "PASS",
+    "full_preregistered_gate": "FAIL_SAFE_BOUNDARY_LIVENESS"
+  },
+  "latest_frozen_holdout": "E847",
+  "packaging_note": "Release source excludes runtime caches and historical binary ancestors; recorded evidence and exact E846-B notebook source are preserved.",
+  "files": [
+    {
+      "path": "ARCHITECTURE.md",
+      "size": 1939,
+      "sha256": "d7673a539882c42d967c6319b06bd1b280ca5f583b86178c267e7cab35f71531"
+    },
+    {
+      "path": "CITATION.cff",
+      "size": 607,
+      "sha256": "780c7ed986faad850c888ba598f1cebcb18f6f694a14b1f920aabf7131975057"
+    },
+    {
+      "path": "KNOWN_LIMITATIONS.md",
+      "size": 1566,
+      "sha256": "d989e0767016f82e3db6af5b618056a4e48eb77506bb9070093da23115728949"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1079,
+      "sha256": "505b9dea394f5feae9ff54287c0ce35268b96dee34e79265214bf6c6ee065032"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "size": 1321,
+      "sha256": "7c5afad696ad850ca6bc020016d0eb750d7f0ad196f3ecb5c5b062bb5742a25b"
+    },
+    {
+      "path": "README.md",
+      "size": 4215,
+      "sha256": "6cfb524108e5018cc8182598792d95ad274d8a282825e48d3845737d94c098e3"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "size": 996,
+      "sha256": "5a3b61cfd2d553a2e7c96476a5c2feacdb700b22534809cdf2917aaeb6eb533d"
+    },
+    {
+      "path": "SCIENTIFIC_STATUS.json",
+      "size": 1334,
+      "sha256": "a4d50342e274fcad5efd9f94bc46aedb070c8a65fb2fe801225af1d3a2d404c9"
+    },
+    {
+      "path": "experiments/E846_B_exact_notebook_source.py",
+      "size": 34686,
+      "sha256": "1eac04b828f517e8863207d9f9d3de1f41d45fa661920e4bd8b18ca39c41da1b"
+    },
+    {
+      "path": "experiments/E847_REFERENCE_SPEC.md",
+      "size": 2017,
+      "sha256": "4c8ece75ae6df497456b9b9c7f97a4713f00f9e4c4778399233462c142f9579a"
+    },
+    {
+      "path": "experiments/verify_recorded_results.py",
+      "size": 2619,
+      "sha256": "4dae473e4a497d7e6b70487fd64434d623442647ffd5a114e364952455d10128"
+    },
+    {
+      "path": "frozen_parameters.json",
+      "size": 752,
+      "sha256": "e4acb9d87c8a0fcb7a714e55b8e21ed1ff18de4dbe72d38b15a86ff3e4daa77e"
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 342,
+      "sha256": "4c383e2e9cc4d068e4ebd2cab19fc9d8d399fb0fd8542e55f977efe1f1228c8e"
+    },
+    {
+      "path": "requirements.txt",
+      "size": 36,
+      "sha256": "5d0cfd681ff12b712762a2e356de1e1900dcd4ad9cef468243487accddc2fc31"
+    },
+    {
+      "path": "results/E846_B_family_results.csv",
+      "size": 2448,
+      "sha256": "abf60300a0c2ad1361cae94c31e6dff3abbe6aa841ad372be18fc728b904fbf0"
+    },
+    {
+      "path": "results/E846_B_summary.json",
+      "size": 130,
+      "sha256": "7838fa305772583294a02cbb5cd5f6cd81266b944cd4db6f27d6f0bdffe10ada"
+    },
+    {
+      "path": "results/E847_execution_output.txt",
+      "size": 980,
+      "sha256": "d4a1fb832b5029ba41b66b6dc632f1731eefb1db66a2aaa41b3a09c5f2c7b68e"
+    },
+    {
+      "path": "results/E847_family_results.csv",
+      "size": 3449,
+      "sha256": "61f8bfe853ffcdd71d728f3d35c0bf6c72b722ed7e7c02c9254657c64d3b98ed"
+    },
+    {
+      "path": "results/E847_summary.json",
+      "size": 678,
+      "sha256": "909c0e93ed67d365460e5508ff82763bb689b0ad55b6a1f768c89b7ec36d5c9a"
+    },
+    {
+      "path": "src/tdc_research_v1_10_rc1/__init__.py",
+      "size": 69,
+      "sha256": "d02b3386b354f4fff44d0de13c2e7e09ff3f038e41380c86e8a7abeaa7aa5539"
+    },
+    {
+      "path": "src/tdc_research_v1_10_rc1/adapter.py",
+      "size": 2186,
+      "sha256": "08390737bc0de3116a970dde5a1a40f1c0caf68d7b009b2e5f1f8d8dc09dc3d3"
+    },
+    {
+      "path": "src/tdc_research_v1_10_rc1/safety.py",
+      "size": 7903,
+      "sha256": "48de58aa3be7e8eedd56ec6b0277d412826850ab87d74be5b6873e150b4174bf"
+    },
+    {
+      "path": "tests/conftest.py",
+      "size": 149,
+      "sha256": "4e688cfbcc7fa54a12ec5f77231026266032ebfa3780353ac6cd6f3dba0133d6"
+    },
+    {
+      "path": "tests/test_recorded_evidence.py",
+      "size": 1252,
+      "sha256": "d7883de42a1617e99451ec2cadf3b8d5814035fcab9dd0c5747ed6ccb6b1f925"
+    },
+    {
+      "path": "tests/test_safety_controller.py",
+      "size": 2209,
+      "sha256": "c03e5fe674dd4c5d8013948a45ca3307be145aea71ec36a3c9793ea0352d270b"
+    }
+  ]
+}

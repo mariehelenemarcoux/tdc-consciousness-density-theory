@@ -1,0 +1,13 @@
+seed: 11001
+episodes: 120
+steps_per_episode: 32
+learning_rate: 0.001
+gamma: 0.97
+hidden_dim: 64
+checkpoint_path: checkpoints/tdc_smoke_policy.pt
+metrics_path: results/runtime/training_metrics.json
+use_safety_layer: true
+risk_uncertainty: 0.12
+measurement_integrity: 0.95
+measurement_noise: 0.04
+measurement_rounds: 3

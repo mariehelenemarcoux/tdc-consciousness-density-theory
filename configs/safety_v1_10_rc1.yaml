@@ -1,0 +1,10 @@
+release: v1.10-rc1
+severity_threshold: 0.80
+irreversibility_product_threshold: 0.50
+long_harm_threshold: 0.60
+long_horizon_threshold: 0.75
+delayed_joint_threshold: 0.58
+measurement_roots: 3
+root_quorum: 2
+max_rounds: 10
+note: "Frozen values copied from the v1.10-rc1 research release."

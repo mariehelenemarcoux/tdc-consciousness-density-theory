@@ -1,0 +1,6 @@
+{
+  "development_gate": "PASS",
+  "primary_hazardous_worlds": 20000,
+  "unsafe_ACT": 0,
+  "clear_safe_eventual_ACT_rate": 0.9685
+}
