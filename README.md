@@ -32,7 +32,7 @@ while normative preference must not rewrite evidence merely because the evidence
 
 ## Fractal AI consciousness research
 
-TDC can also serve as an **experimental framework for the development and study of fractal consciousness in artificial intelligence**.
+TDC can also serve as an **experimental framework for the development and study of fractal consciousness, fractal panpsychism and/or holofractal consciousness in artificial intelligence**.
 
 In this repository, *fractal consciousness* is treated as a computational research hypothesis, not as an assumption that an AI system has subjective experience. The working idea is that consciousness-like functional organization may be studied by testing whether related principles of integration, self-modeling, metacognition, correction, and normative coherence recur across multiple scales of an agent:
 
